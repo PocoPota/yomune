@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import '@/styles/reset.css';
+import "@/styles/reset.css";
 
 export const metadata: Metadata = {
 	title: "Yomune",
