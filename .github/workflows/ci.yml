@@ -31,7 +31,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Check formatting (no write)
-        run: pnpm exec biome format --write=false
+        run: pnpm exec biome format
 
   typecheck:
     name: TypeScript Typecheck
